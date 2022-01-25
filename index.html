@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body id="myPage">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font aswesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js"crossorigin="anonymous"></script>
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+<title>Pasay City East High</title>
+<style>
+  /* Header/Logo Title */
+  
+  .header{
+    padding: 50px;
+    text-align: left;
+    background-image: linear-gradient(0deg, rgb(14, 124, 124), rgb(17, 228, 182));
+    position: relative;
+  }
+
+    img {
+max-width: 100%;
+height: auto;
+}
+ </style>
+  </head>
+  <body>
+  
+  <div class="header">
+    <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.15752-9/271566469_648186722997841_8267789065769453652_n.png?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeH2QJF9pn5yo_C0Ljdu2z8lA8VUsDDwuYIDxVSwMPC5gng-lu3IVsgLbMJuoWvf9ucs48tNIV7BSWcoDqRrbAwC&_nc_ohc=f6V6WdfLSXIAX_L3WZI&_nc_ht=scontent.fmnl4-1.fna&oh=03_AVLLg19yIJ7OZUkI0hUAKO7KP8kGVlK1zbGSFvnT5SliDQ&oe=62123E2B" alt="logo" style="width:100%">
+  </div>
+
+  <!-- Showcase -->
+  <div class="showcase container">
+    <div class="row">
+      <div class="col s12 m10 offset-m1 center">
+       <h5>Welcome Students!</h5>
+       <a href="solutions.html" class="btn btn-Meduim white purple-text">Learn More</a>
+       <a href="signup.html" class="btn btn-medium blue white-text">Sign Up</a>
+      </div>
+   </div>
+</div>
+</header>
+</div>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(17, 122, 117, 0.8);
+}
+
+/* Caption text */
+.text {
+color: #0f0f0f;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<div class="numbertext">1 / 3</div>
+<img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.6435-9/196703048_4687902401238209_2681482936025687783_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeHfEvO2j9PoHlWb3owmDfKpERK2_abHMLERErb9pscwsZ5GfvlxDgQd25q1zXJr8ZR81xoi3YSsPMqcbR-tW7XU&_nc_ohc=uEL70cksveYAX_GzZJc&_nc_oc=AQledalDfI0dNIzShw4iwc8dWAIvUp4PbPDnttx_qZQs1ZB5bJXR6N-qI6cry5e1NTQ&_nc_ht=scontent.fmnl25-4.fna&oh=00_AT8pdIFp7M1KNNMrU4j7NgyU5aFStbApLHetqVcMP9G9rw&oe=620F89D6" style="width:100%">
+<div class="text">A Thousand Blooms Project of Silangan</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">2 / 3</div>
+<img src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/262431074_5282537761775758_8896963011921191707_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFEMPHCNmaMKds26j5ps3YYejD0FySp1WV6MPQXJKnVZeAxj8AZU4bX0d9qFp54swWmjuDWVz-GwvJyTdzd-HCn&_nc_ohc=9VKzG1DvrTAAX-RD79l&_nc_ht=scontent.fmnl4-4.fna&oh=00_AT-Y-I8SkSQ4PAZMkrBha3KghpmBie6ei11zUEtKAmmDHQ&oe=61EE8B89" style="width:100%">
+<div class="text">Best in Division Webpage Contest</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">3 / 3</div>
+<img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/269785464_5362912037071663_7045900781323082809_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeETdrfHJkp_HIzERtwwPfs1KubJh9BwzH0q5smH0HDMffpteIErJ2nDZ7yOIUs3CTK96LZnxaU2keQoN_dkuAow&_nc_ohc=5pazIhSD3HkAX8APRp5&_nc_ht=scontent.fmnl25-3.fna&oh=00_AT-iWkwTYweG_KsAwlU3P8GVHmyr-dwtVVEXMBrNFV65rw&oe=61EEF4A8" style="width: 100%">
+<div class="text">Best in Brigada Eskwela</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span> 
+<span class="dot" onclick="currentSlide(2)"></span> 
+<span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}    
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";  
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}    
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+  
+  
+<style>
+    body  {
+      background: url("https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/271584001_1556343748077872_5036401675059950261_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHSFxQHh4iN-hD0AlqnhPDijFCt19cCN2CMUK3X1wI3YIideAO0gbIm8lRjLq_7JjABngGrVyLm2c4kZDNdr1w8&_nc_ohc=nb8uoNlOHzYAX-LYHzE&tn=jb6HptUetEHGqeAv&_nc_ht=scontent.fmnl25-4.fna&oh=03_AVKfD2ggpv0athdCtoDlmtolJSyDghC8SW7BtXhdKdn2zw&oe=62140228");  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    </style>
+
+
+<!-- Image Header -->
+
+<style>
+    /* Header/Logo Title */
+    
+    .header{
+      padding: 20px;
+      text-align: left;
+      background-image: linear-gradient(0deg, rgb(14, 124, 124), rgb(17, 228, 182));
+      position: relative;
+    }
+
+
+      img {
+max-width: 100%;
+height: auto;
+}
+   </style>
+    </head>
+    <body>
+  
+
+  <style>
+    nav {
+        height: 55px;
+        width: 100%;
+        background-color: hsl(175, 69%, 29%);
+        text-align: left;
+    }
+</style>
+
+<section class="section section-icon center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4 12">
+        <div class="card-panel teal">
+          <h3>Mission</h3>
+          <span class="white-text">We dream of Filipinos who passionately love their country and whose competencies and values enable them to realize their full potential and contribute meanigfully to bulding the nation. As a learner-centered public institution the Department of Education continously improves itself to better serve its stakeholders.
+              </span>
+              <div class="card btn-medium">
+                <div class="card-image">
+                  <img src="https://i2.wp.com/www.sunwaptasolutions.com/wp-content/uploads/2014/12/6a00e552438350883401b8d0ab2d7e970c.png?fit=650%2C450&ssl=1">
+                  <span class="card-title"></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                </div>
+                </div>
+          </div>
+      </div>
+      <div class="col s12 m4 12">
+        <div class="card-panel teal">
+          <h3>Vision</h3>
+          <span class="white-text">To protect and promote the right of every Filipino to quality, equitable, culture-based and complete basic education where: Students learn in a child-friendly, gender sensitivity, safe and motivating environment. Teachers facilitate learning and constantly nurture every leader. Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.Family, community and other stakeholders are actively engaged and share responsibility for developing lifelong learners. 
+              </span>
+         </div>
+    </div>
+      <div class="col s12 m4 12">
+        <div class="card-panel teal">
+          <h3>Core values</h3>
+          <span class="white-text"> 
+              <ul>
+                  <li>MAKA-DIYOS</li>
+                  <li>MAKA-TAO</li>
+                  <li>MAKA-BAYAN</li>
+                  <li>MAKAKALIKASAN</li>
+                </ul>
+              </div>
+                </span>
+                <div class="card btn-medium">
+                  <div class="card-image">
+                    <img src="https://www.uws.edu/wp-content/uploads/Core-Values-768x625.png">
+                    <span class="card-title"></span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  </div>
+                  <div class="card-content">
+                    <p>“We recognize our students have different needs, experiences and backgrounds, and it is our responsibility to listen to and represent their voices in all university decisions. We are committed to providing the best student experience possible at UWS and are working to create more opportunities to hear their feedback and implement positive changes within all of our academic and co-curricular programs.”</p>
+                  </div>
+                </div>
+             </span>
+          </div>
+        </div>
+</head>
+<br><br>
+
+<!-- Team Container -->
+
+    
+</div>
+</div>
+
+<br><br>
+         
+         <br><br>
+         <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+          
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          </style>
+          </head>
+          <body>
+          
+
+          <div class="w3-row-padding w3-padding-64 w3-theme-l3" id="work">
+          <h2><b>ANNOUNCEMENT</h2>
+          <p>Be Guided Properly: Read Informtion Below:</p>
+          
+          <div class="row">
+            <div class="column">
+              <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/233700098_1732869290236733_1145281747921199599_n.png?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeElReiIkCjauM57aPTrXS_hzZ3COn8kN8bNncI6fyQ3xubZQNrY5uj1LY_caC4senaMm12pP8KO7gjK3InUWahd&_nc_ohc=PLhvLBAUb2kAX9X5vgH&_nc_ht=scontent-sin6-1.xx&oh=00_AT9NN745M0akEV8eKpLIUeS4_rLaR87jnHj8afa00tbLtg&oe=61EF9862" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/236832435_1736700266520302_8879858284543475729_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHUtg_rG1ZVuZkfQ02L3u_2F242wgHgIf0XbjbCAeAh_XIyqpJPG713EREVioQtgpf_W3wv3Sftd22oNun2evSw&_nc_ohc=el7XfOtwZ1AAX-eiTei&_nc_ht=scontent.fmnl25-4.fna&oh=00_AT847HS4tgaqxmRh939i6Srxe_CTUunEAWzuwCbUlT0_dg&oe=61F0255A" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.6435-9/185035958_1670397319817264_2194264861692303306_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeG5cTGVeUjdSUrjMAWQhKFzrBlziYitS2usGXOJiK1La7ADblcVqrNUrHKdrzKggEVMSAiCQ9_sOR8eMqzik_ZM&_nc_ohc=CseeNmC5IqwAX_hfaUn&_nc_ht=scontent.fmnl25-4.fna&oh=00_AT9MXTyE14fW9DBPnqSuXvmWGwdYvrw6fL0IhShuIAA0aA&oe=62113974" alt="Mountains" style="width:100%">
+            </div>
+          </div>
+          </div>
+<body>
+
+  <style>
+  body {
+    position: -webkit-sticky; 
+  }
+  #section1 {padding-top:50px;height:600px;color: rgb(7, 7, 7); background-color: #2d929985;}
+  #section2 {padding-top:50px;height:600px;color: rgb(15, 15, 15); background-color: #f7b45085;}
+  #section3 {padding-top:50px;height:600px;color: rgb(17, 16, 16); background-color: #3aaa9b77;}
+  #section41 {padding-top:50px;height:600px;color: rgb(20, 20, 20); background-color:#f7b4507c;}
+  #section42 {padding-top:50px;height:600px;color: rgb(27, 26, 26); background-color: #0096875e;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">About Us</a></li>
+          <li><a href="#section2">Contact</a></li>
+          <li><a href="#section3">News & Events</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Program <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Junior High</a></li>
+              <li><a href="#section42">Senior High</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1><b>About Us</h1>
+  <p>Meet the Team - Our School Officials</p>
+        <div class="w3-row">
+        <div class="w3-quarter">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.18169-9/23172662_2002031683159732_7724391451467702000_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH1R2REdaAQLFPLo915BoUxcnMVaEANGcZycxVoQA0ZxpHYoCtnT1zK88y85D5V_Bfe9kBJqeNSgD3CEMo4hNuS&_nc_ohc=OFjCT1aWGhAAX_McO05&tn=jb6HptUetEHGqeAv&_nc_ht=scontent.fmnl25-4.fna&oh=00_AT81x366fDrD58_n0GI8S9esKi1ykVhclXHzq3xUuLVYHg&oe=6210D80C" alt="Boss" style="width:60%" class="w3-circle w3-hover-opacity">
+          <h5>Dr. Felina P. Patagan</h5>
+          <p>Principal II</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.6435-9/123258733_3557548187601241_7923155809726464166_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGRCPNxO_P5ryICb2X2PmYPG13qMkX-sZIbXeoyRf6xkvOH6mbQDe0v6YnaS2RSzEG9GZNCmjq9dtNiRaPFTeI9&_nc_ohc=QLa9QGrd624AX-6jexu&_nc_ht=scontent.fmnl25-3.fna&oh=00_AT-xa2_9_p9xRVwH5GPL1vBbe3GIk3Xd7q2WrdPbesydhg&oe=620EAA5E" alt="Boss" style="width:60%" class="w3-circle w3-hover-opacity">
+          <h5>Lenelyn Lopez</h5>
+          <p>School Teacher</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/240504050_4909305085764243_5224095287805622409_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHdHen7zK-Ucq7Bl6acm6qlxCqOKr-FHYPEKo4qv4UdgzbHQgWl7tdnwXrNcl7oAa3JySnbJCSprC4ZLOmhiqTV&_nc_ohc=Dk1cJ8d9tHYAX_NUpCY&_nc_ht=scontent.fmnl25-3.fna&oh=00_AT9ONzDfdBtaxMFyHxNDalvYnMkntDKRoPaIn7hOfWDtkA&oe=61EEF712" alt="Boss" style="width:60%" class="w3-circle w3-hover-opacity">
+          <h5>Diosdado P. Rosales</h5>
+          <p>Assistant Principal</p>
+        </div>
+        
+        <div class="w3-quarter">
+          <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/220818325_4257983234282299_6149548751288646287_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHlLng8BZnnoFRNjMqB57OVNOPqadmQ3OA04-pp2ZDc4D3YSl6pjm5kOj1aaZq3F2Y6z3LR0kzxV6cO-mfM-QEY&_nc_ohc=fA6gESlTmXIAX9eryHz&_nc_ht=scontent.fmnl4-1.fna&oh=00_AT9ccCjUVRIwwGTiizD1Nt6y1jam_oapj7DQdDQVW6cISg&oe=61F2A348" alt="Boss" style="width:60%" class="w3-circle w3-hover-opacity">
+          <h5>Ma. Lourdes D. Deladia</h5>
+          <p>Master Teacher I</p>
+        </div>
+        </div>
+       </div>
+
+
+<div id="section2" class="container-fluid">
+  <h1><b>Contact Us</h1>
+  <h2>Pasay City East High School-305367-PYC</h2>
+  <h3>E. Rodriguez St., Malibay, Pasay City</h3>
+  <h3>(Tel) (02) 845 2981 </h3>
+  <h3>pasaycityeasthigh@yahoo.com</h3>
+  <h3>https://www.facebook.com/pcehs305367</h3>
+  <img src="https://www.etrix.com.sg/wp-content/uploads/2021/02/contactus-1536x504.png" alt="Boss" style="width:30%" w3-hover-opacity">
+  </div>
+
+  <div id="section3" class="container-fluid">
+  <h1><b>NEWS & EVENTS</h1>  
+    <br><br>           
+            <div>
+              <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/MiVa4T2QqcY"
+              align="left"
+              <p class="flow-text">I am Flow Text</p>
+              </iframe>
+            </div>
+            <h3><b>Face-to-Face, Are You Ready?</h3>
+
+
+            <h5>As of January 2, the Philippines recorded an additional 4,600 COVID-19 cases. At present, the country has 21,418 active cases. Under the country’s COVID-19 task force’s guidelines for the implementation of alert level system, the holding of limited face-to-face classes was prohibited in areas under Alert Level 3. The activity, among others, was characterized as high-risk for transmission. In December last year, at least 28 public schools participated in the pilot run of limited face-to-face classes in Metro Manila. In November 2021, the government had finally approved the limited face-to-face classes in over a hundred schools in the country. 
+             As of January 2, the Philippines recorded an additional 4,600 COVID-19 cases. At present, the country has 21,418 active cases. Under the country’s COVID-19 task force’s guidelines for the implementation of alert level system, the holding of limited face-to-face classes was prohibited in areas under Alert Level 3. The activity, among others, was characterized as high-risk for transmission. 
+             “Face-to-face classes in pilot schools in areas under Alert Levels 1 and 2 shall continue in the meantime that DepEd finalizes its report on the pilot face-to-face classes,” the DepEd added. In December last year, at least 28 public schools participated in the pilot run of limited face-to-face classes in Metro Manila. In November 2021, the government had finally approved the limited face-to-face classes in over a hundred schools in the country. Before the approval, the Philippines was among the last two countries in the world to hold limited physical classes since the pandemic began in March 2020. – Rappler.com</h5>
+<img src="http://www.fitforschool.international/wp-content/uploads/new-and-events-851x280.jpg" alt="Boss" style="width:30%" w3-hover-opacity">
+</div>
+</div>
+<div id="section41" class="container-fluid">
+  <h1><b>Junior High School</h1>
+  <img src="https://sites.google.com/site/mpnagmandaluyong1997/_/rsrc/1468869029437/academic-programs/STEM%20Academic%20Program.jpg" height="600" width="1000">
+  </div>
+</div>
+</div>
+
+
+
+<div id="section42" class="container-fluid">
+  <h1><b>Senior High School</h1>
+    <img src="https://sites.google.com/a/deped.gov.ph/depedzcseniorhs/_/rsrc/1444973677936/home/tracks-strands.PNG" height="450" width="1000">
+  </div>
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- jquery CDN -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/"xUj+30JU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+
+
+      
+      
+</script>
+</body>
+</html>
+
+</head>
+
+
+<body>
+
+
+  <style>
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(248, 254, 255);
+    color: rgb(33, 180, 190);
+  }
+</style>
+
+  <footer>
+    <p>Author: Lenelyn Lopez, Teacher I<br>
+    <a href="lenelynplopez@gmail.com">lenelynplopez@gmail.com</a></p>
+  </footer>
+  
+</body>
+</html> 
+</body>
+</html>
